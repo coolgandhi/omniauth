@@ -6,7 +6,7 @@ module OmniAuth
   class Error < StandardError; end
 
   module Strategies
-    autoload :Developer, 'omniauth/strategies/developer'
+    autoload :Etsy, 'omniauth/strategies/etsy'
   end
 
   autoload :Builder,  'omniauth/builder'
